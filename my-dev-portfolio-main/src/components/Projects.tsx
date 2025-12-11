@@ -1,35 +1,67 @@
 import { ExternalLink, Github, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const projects = [
+ const projects = [
   {
     title: "Wandridge",
     subtitle: "Travel Booking Platform",
-    description: "A travel booking web app inspired by Airbnb, allowing users to explore stays, manage bookings, and connect with hosts. Features responsive UI, intuitive navigation, and dynamic server-side rendering.",
+    description:
+      "A travel booking web app inspired by Airbnb, allowing users to explore stays, manage bookings, and connect with hosts. Features responsive UI, intuitive navigation, and dynamic server-side rendering.",
     techStack: ["Node.js", "Express.js", "MongoDB", "EJS", "JavaScript"],
     github: "https://github.com/EppaHarsha/Wandridge",
     live: "https://wandridge.onrender.com",
-    featured: true
+    featured: true,
   },
+
   {
     title: "Real-Time Chat Rooms",
     subtitle: "WebSocket Chat Application",
-    description: "A real-time chat application with multiple rooms using WebSockets. Enables instant messaging with RESTful API integration and a responsive, modern UI.",
+    description:
+      "A real-time chat application with multiple rooms using WebSockets. Enables instant messaging with RESTful API integration and a responsive, modern UI.",
     techStack: ["React.js", "Node.js", "Express.js", "Socket.io"],
     github: "https://github.com/EppaHarsha/ChatApp",
-    live: null,
-    featured: true
+    live: "https://chat-app-neon-delta-13.vercel.app/",
+    featured: true,
   },
+
   {
     title: "SmartSummarizer",
     subtitle: "AI Chrome Extension",
-    description: "Chrome Extension powered by Google Gemini AI to summarize web pages in Brief, Detailed, and Bullet Point modes. Features customizable API key integration and clipboard copy.",
-    techStack: ["JavaScript", "Chrome Extension API", "Google Gemini AI", "HTML", "CSS"],
+    description:
+      "Chrome Extension powered by Google Gemini AI to summarize web pages in Brief, Detailed, and Bullet Point modes. Features customizable API key integration and clipboard copy.",
+    techStack: [
+      "JavaScript",
+      "Chrome Extension API",
+      "Google Gemini AI",
+      "HTML",
+      "CSS",
+    ],
     github: "https://github.com/EppaHarsha/SmartSummarizer",
     live: null,
-    featured: true
-  }
+    featured: true,
+  },
+
+  // ⭐ NEW PROJECT ADDED HERE
+  {
+    title: "Confera",
+    subtitle: "Real-Time Video Conferencing App",
+    description:
+      "A Zoom-inspired real-time video conferencing platform featuring WebRTC video calling, multi-user rooms, screen sharing, live transcription, and real-time meeting summaries. Built with a scalable architecture and modern UI.",
+    techStack: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Socket.io",
+      "WebRTC",
+      "TailwindCSS"
+    ],
+    github: "https://github.com/EppaHarsha/Confera",
+    live: "https://confera-two.vercel.app/",
+    featured: true,
+  },
 ];
+
+
 
 const Projects = () => {
   return (
